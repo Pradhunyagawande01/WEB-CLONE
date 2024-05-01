@@ -1,18 +1,9 @@
-:root{
-    --text:yellow;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container{
-    background-color: var(--text);
-    height: 500px;
-    width: 500px;
-    border: 1px solid black;
-}
-
-.box{
-    border: 1px solid pink;
-    background-color: plum;
-    --text:yellow;
-    color: var(--text);
+body{
+    background-color: #f1f1f1;
 }
