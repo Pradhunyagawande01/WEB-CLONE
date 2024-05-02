@@ -4,211 +4,198 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEB-2</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-  
-  
     <div class="wrapper">
-
-
-
       <div class="navigator">
-
         <div class="name">
-          <img class="logo" src="logo.png" alt="">
+          <img class="logo" src="logo.png" alt="" />
         </div>
-  
-  
-          <div class="nav">
-            <div class="home">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAXhJREFUSEvt1r8vBEEUwPHvNSg0qgsKOv+ATnWFRqUUkVAT/gXuT5AIpYQEnVJUKn+AVkXhRynRSBTsS2bkGbNm3ljZ5rbZu828/bz3dvbddWjp6LTkUgpL3LJL+gT4sBZQAkuMYEsOO3NJmHArHKK+UDNugWXtEbDitHt3nnLnY2A1t+25cFjpAzDnwGtg0tr2HLgO1RWb8RScQv0zlnab8N/gXLQIr4OtqBmPwaWoCQ/hv6LZuIZjw6Ff3WnHOg7deonbVrHfhoyGZTDIENBHk7DcV+b7qXzQ8CJw/s/wAnARwvJ9BhgHrlwCuuIhYLN6X+eBkSDBN+AS2APeI63uAY9Vxbc+ru518r80Gj4E1hLPex/YiMA/HAv8CowCMirvggSmAZleL8BY03CsC97XO9gXE7v2la+l4gGsH/Og1dKNos31DHQLZ3QY9gRMhBfrdvVW9T7uNgSvV0Uc5MKybtaNx+HCBGSMyly+icWn/nMVmumw1uBPg+qCH2ApKdYAAAAASUVORK5CYII="/>
-              <h4>Home</h4>
-            </div>
-            <div class="search">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoZJREFUSEvllknIjlEUx39fxiwsbAyfKZEhURbfAgspJGxkKoVMoS8lEdlYsUCGIsocKbJgIWxYUTYoylQkUyKFMg/nr/PoerzPc+/71OtbOLv3fc49v3vPPed/bhNtZE1txCUV3BFoAQYBPYDnwAPgGvC5yuZj4H7AVmAq0LkG4ANwBlgDPKlnA2XgFcB2QKeN2SdgGXA45ph9LwLrlKvd6auldy9wCbgLPAQGAEOA8cBSoJ37brCNbkqB1wIvB/b4Yt3jFOBeSbARdv/ngGb3mQ2cjMHz4KHATaCDn24s8CoWBOgNXAH6AO+BwZaJZ2Xr8uALFmCiV6oWP0qAZi4jgevwq1OO2pXMTwV3A1678w5gVR3QzPUEMAd4Cyjet6IY4YlnAKfccTRwtQJ4ZnC/pTFC8Epgp8O6WlW/qwDu71WvpQuAIyknXh+0QvuyNJVsqBPw0b+vBbakgNWP+9yxpwnCiwon7gU89XWzgqv7K1SY6gnARfeYDJyvAJ4GnPV1w4HbKSfuArxxidxvO19SAXwMmAv8cG0vHCD5Pj4NTAe+W3UOcxFJ5auPb7jzARsai1P7WH7SYKVHk0hyOQZ4mUDu68ol2ZQWaHwqe4VWS6sXmQQq1bLH1s+TTBTulMQY5Vrd3X12m8y2xjZbNJ02W1us88WaThoal4PpJDnVVYzzlObjaPMH6z1x5q8ptQtQT8fsiz8IpH6ZlcJjLxDd+TZA7SVxyJu0+JD9udH7d6FNKBVWFB4DZwEE1ZtroL+5NLXuA7cCpcp883D91ub+sFRwLNX574KpQBVfrTnPKv146NQosBghXFWuav9tjQQLIvVTT2tg/JNUR6+m0Scu3MD/B/4JVp9tH2VWMqoAAAAASUVORK5CYII="/>
-              <h4>Search</h4>
-            </div>
-            <div class="explore">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAyhJREFUSEvFllnITVEUx38fooiEEkqUOXMpU3nwIJKpiEQe5IsyFIok8xCS4cH0IJJQhpKheJAUGTKHzJlDkiRk2P+vdb7O3e19z7n35a6Xe8/ea6//Wv+91tqrigpJVYVwKRW4LtAfaAe0MqffAs+Bq8CfvIHkBe4ILAbGAk0jxj8Dx4F1wLMsB7KAGwLrgVmAos0jv4CNwEpA/4NSDFh0ngS620kZOeqoPgvcAZ4A9Yz23sBwtz7O1nRE1I8CPoSQY8BdgUtAMzt0xqJ+kRFyB2AnMNT03lhOvPbPhYBbAjeANqa8wv0uz8Ox6cjmBmCBfT8A+gHf0zZCwIeBCaa0zO6qBNxa1S3AXPvaCswrBtzD7k86p4CR5SDaGSXjRWAg8NtyQaVXI37E+1wpTDVaOgG1ihkO9ALGWLkp0RLpDNyzhFvrHFgSAq4PfAIaAzssmYrhpcH0X6JcUE6kRbUtp5SY7UPAysTztjECUCaHRPeuRpKApXW0plJLy3SXqHtsQSw+9qmeBuw1BWV0jOZbEVCt9wl4Kupv2rrqWr2h4I4XWhlovUGk6ygiAcSYULfyRS32iy0qs5XhBcDzgU2m0AT4FjCiOxTVIekJ3A1syNZXWxfGZh94EnDQFLoAjwJGYjSLyr4Rh7oB921vIqA+URCxnrvLpiAnDnmGYjTLmWPuEVkVAZ4C7Lc9dbDrPrBq+iPQHDgA6EBa0jTftidQpeJnsY9/xEU8HngPtHZX9c8H1vcul80zgB+Aiv9VyooiE9AJV04CziOyIcfUI7YDc5JDfueSopq61s856oclHuZB8XTUMi+43jAY+OtY1MulSaVGQo+EaJ5s+6vdOLO0DFAd2QbMtrO7geq0nRBwC+CaNXXpqjZjJRTyqY6VTPIyPbSHIqnlaMTa0Ix1xRsEZgIvM6LXAKE+P8T01P0GWZ8uOFrK6PPTyua0NQqNPkoaNX6ViXq9Rp9kNhNrox3F70LOZg17jdyTpntWNorCPKLZTAPimnKHvTSIOtkie5XUAkOi8VbDoN7drCspeaDXVDkAaOsN9E8tIVU2uSSL6lxGylGqGPB/8rmTHz+BAgkAAAAASUVORK5CYII="/>
-              <h4>Explore</h4>
-            </div>
-            <div class="reels">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAVZJREFUSEvN1rEuBFEUxvHfhkopEiQSGrVCoaVQiE7JK1ASHTqJEq/hBTTUGr2GhELjCRT2bHaSyezszszuXbun2WRz5/zvd8537r0tE4rWhLjqgOdxgJURNvmJB/xkOarAS3jF4gjQ7NNvbCB+KxUf4zYBNEsR+e7rgC9xkRB81c4VOSsVTx34CzMIDzSJ2oqjzJ3SFOIJ+zjDKeZq0pOAd7qwGLNrHNZoXSk4389szPr1+BnbBZVbXcduDlA/FnBm1lAeFSg7cMYGzsQutD3wgrWC+rGCj/5bcfQ2TqXodb9IqngZN6ldPWiO93CeYo6bjFNccxFNr8qRS13zoOpZNv3g1PfxCe6K12JZj+MAeMPssLXNffeLdbzXAceaVewOYaT8XsOMj/jI/sy/ucoUJxBanmIqwKmMVPVy7ZQgvyiVkRqDUxmp7KnU0+hauxuHwyYG/gPtGFQfCq3nNAAAAABJRU5ErkJggg=="/>
-              <h4>Reels</h4>
-            </div>
-            <div class="message">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAdJJREFUSEvF1j/oTmEUwPHPj5ISZUDKb6OUDFiUgRgs6sciZWGhKCNKFrEYMBiQwc9iUCJJShkwICULBpOSkqL8TeKeeq5eT/e97vu+9/Y+273POef7nHOec54zYUxrYkxcg4LnYA0msTgd+i3e4Cm+NnWkCXgu9mEnVtYY/o3nuFQc6jy+1R2iDhx7B3AM85p6kuQ+4DAu9tPrB56Pa9gwIDAXv4kdVSmoAgf0PlaMCC3VH2BzDs/BMxGCa1uClmZuYGuvzRwc+TzaMrQ0txcXyo9e8Ay8w4KOwM+wqgq8CXc7gpZml+J1fPR6HKE41zF4e3Fpr+bgIzjeMfgQTo7D492ps/0T6nWplLp0Osr0Ue7xrNTsF3ZEfoXlVbc6/u3H2Y7AuzDdDxyd60lvvbV0iHvYWNe5Ym9R6tXLWoK+wPoimu//B479yPNtrB4R/hhbcmh+uXLG7OIdPoU9iBQMsr6kej1R9P5fVYpNJpApXG9A/YE7uJLkv9fpNAHHMBCXI1/hyenioX+ZyvAhwtNGa1hwDHfb0oDXCJQLDQO+lQa/T0MRk9Ig4J/F+HIQZ0YB9msgVTYjx5dHDe0woV6Cz/jYhqeDeNwm76+tJjnuBPwHuaxKH/SpMNYAAAAASUVORK5CYII="/>
-              <h4>Message</h4>
-            </div>
-            <div class="notification">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZhJREFUSEvl1j9IF2EYwPHPL/+MLo4uhkOLrS5uRpBUCA612BK46eKkuAqKSxC41VRTIbg4SAXhIuGiOLkoTm4uTqZpvnAnP17O+91dv0Oh2973Hp7v8/99Gu7oa9wR170Gd+AROrGHq1ui9ACDuMA+/uRFM8/j0WvYAh6jK1Fyhl+YxVZyN4wlDKE7uTvHLubwPcuALHCABEUzLfL/LjFoqoXcMuaTSNyIZoFXMd7movuC1806Y/AEPrUZmqp7ha/poRkciugIfTWBD66dGsgCj+BHTdBUbSjA7XBo9nga72sGv8HnGBxaZLFm8CQ+xOC3+Fgz+AXWY3A/DmsEh6HSi9MYHM5rGKsJvoKbYRP38UPsoKfN8ONkjp9ktVN6F9pqI3kU2sEPj8YTbOZNrvTf06QI0sehqgEhr8/xLVaQ9zr9K/xWaFZxxYZVhedCi4CDTFl4S2hRcBl4WBReZuW0TI7Lhr0wtIzHrao9QJ/hZ9Hyr7JlxjkvDa3icez5ZVlP8yZX0WiFLfR31eWhSqiLGpYr9/+B/wL/F0cfaeSTzgAAAABJRU5ErkJggg=="/>
-              <h4>Notification</h4>
-            </div>
-            <div class="creat">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAP9JREFUSEvtl8kNwjAQRV8q4MCZpQAOVMBSBZRBAYgLDVAGVMFSAQcKAClXDlQAGimWhsghzuogZW5W7Hme729lHOApAk9cGgfuAiMovLE3cAOecWVtFW+BdclHIDk3Omcc3AceJUNNuh4QmkEcPAHOFYGnwCUJPAOOFYHnwKko+AVcoyRjoOOw2VLAchyijoRUITKmRQv+UsjVXLVIrY1kdinGWkWDHSAG02EzXOYz1tWlGch8txnuf8DepLbJW4u5WrAo4E1qbz8J1/us5/28x94agQFwz1OOw5qhbqtszd4eWDgkyjLlACz1gqS+2kt7m6WS3HMb95LIXYnrwg/oJ1IfZh8olwAAAABJRU5ErkJggg=="/>
-              <h4>Create</h4>
-            </div>
-            <div class="profile">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII="/>
-              <h4>Profile</h4>
-            </div>
+
+        <div class="nav">
+          <div class="home">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAXhJREFUSEvt1r8vBEEUwPHvNSg0qgsKOv+ATnWFRqUUkVAT/gXuT5AIpYQEnVJUKn+AVkXhRynRSBTsS2bkGbNm3ljZ5rbZu828/bz3dvbddWjp6LTkUgpL3LJL+gT4sBZQAkuMYEsOO3NJmHArHKK+UDNugWXtEbDitHt3nnLnY2A1t+25cFjpAzDnwGtg0tr2HLgO1RWb8RScQv0zlnab8N/gXLQIr4OtqBmPwaWoCQ/hv6LZuIZjw6Ff3WnHOg7deonbVrHfhoyGZTDIENBHk7DcV+b7qXzQ8CJw/s/wAnARwvJ9BhgHrlwCuuIhYLN6X+eBkSDBN+AS2APeI63uAY9Vxbc+ru518r80Gj4E1hLPex/YiMA/HAv8CowCMirvggSmAZleL8BY03CsC97XO9gXE7v2la+l4gGsH/Og1dKNos31DHQLZ3QY9gRMhBfrdvVW9T7uNgSvV0Uc5MKybtaNx+HCBGSMyly+icWn/nMVmumw1uBPg+qCH2ApKdYAAAAASUVORK5CYII="
+            />
+            <h4>Home</h4>
           </div>
-  
-  
-  
-          <div class="more">
-            <div>
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg=="/>
-            </div>
-            <div>
-              More
-            </div>
+          <div class="search">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoZJREFUSEvllknIjlEUx39fxiwsbAyfKZEhURbfAgspJGxkKoVMoS8lEdlYsUCGIsocKbJgIWxYUTYoylQkUyKFMg/nr/PoerzPc+/71OtbOLv3fc49v3vPPed/bhNtZE1txCUV3BFoAQYBPYDnwAPgGvC5yuZj4H7AVmAq0LkG4ANwBlgDPKlnA2XgFcB2QKeN2SdgGXA45ph9LwLrlKvd6auldy9wCbgLPAQGAEOA8cBSoJ37brCNbkqB1wIvB/b4Yt3jFOBeSbARdv/ngGb3mQ2cjMHz4KHATaCDn24s8CoWBOgNXAH6AO+BwZaJZ2Xr8uALFmCiV6oWP0qAZi4jgevwq1OO2pXMTwV3A1678w5gVR3QzPUEMAd4Cyjet6IY4YlnAKfccTRwtQJ4ZnC/pTFC8Epgp8O6WlW/qwDu71WvpQuAIyknXh+0QvuyNJVsqBPw0b+vBbakgNWP+9yxpwnCiwon7gU89XWzgqv7K1SY6gnARfeYDJyvAJ4GnPV1w4HbKSfuArxxidxvO19SAXwMmAv8cG0vHCD5Pj4NTAe+W3UOcxFJ5auPb7jzARsai1P7WH7SYKVHk0hyOQZ4mUDu68ol2ZQWaHwqe4VWS6sXmQQq1bLH1s+TTBTulMQY5Vrd3X12m8y2xjZbNJ02W1us88WaThoal4PpJDnVVYzzlObjaPMH6z1x5q8ptQtQT8fsiz8IpH6ZlcJjLxDd+TZA7SVxyJu0+JD9udH7d6FNKBVWFB4DZwEE1ZtroL+5NLXuA7cCpcp883D91ub+sFRwLNX574KpQBVfrTnPKv146NQosBghXFWuav9tjQQLIvVTT2tg/JNUR6+m0Scu3MD/B/4JVp9tH2VWMqoAAAAASUVORK5CYII="
+            />
+            <h4>Search</h4>
           </div>
-  
+          <div class="explore">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAyhJREFUSEvFllnITVEUx38fooiEEkqUOXMpU3nwIJKpiEQe5IsyFIok8xCS4cH0IJJQhpKheJAUGTKHzJlDkiRk2P+vdb7O3e19z7n35a6Xe8/ea6//Wv+91tqrigpJVYVwKRW4LtAfaAe0MqffAs+Bq8CfvIHkBe4ILAbGAk0jxj8Dx4F1wLMsB7KAGwLrgVmAos0jv4CNwEpA/4NSDFh0ngS620kZOeqoPgvcAZ4A9Yz23sBwtz7O1nRE1I8CPoSQY8BdgUtAMzt0xqJ+kRFyB2AnMNT03lhOvPbPhYBbAjeANqa8wv0uz8Ox6cjmBmCBfT8A+gHf0zZCwIeBCaa0zO6qBNxa1S3AXPvaCswrBtzD7k86p4CR5SDaGSXjRWAg8NtyQaVXI37E+1wpTDVaOgG1ihkO9ALGWLkp0RLpDNyzhFvrHFgSAq4PfAIaAzssmYrhpcH0X6JcUE6kRbUtp5SY7UPAysTztjECUCaHRPeuRpKApXW0plJLy3SXqHtsQSw+9qmeBuw1BWV0jOZbEVCt9wl4Kupv2rrqWr2h4I4XWhlovUGk6ygiAcSYULfyRS32iy0qs5XhBcDzgU2m0AT4FjCiOxTVIekJ3A1syNZXWxfGZh94EnDQFLoAjwJGYjSLyr4Rh7oB921vIqA+URCxnrvLpiAnDnmGYjTLmWPuEVkVAZ4C7Lc9dbDrPrBq+iPQHDgA6EBa0jTftidQpeJnsY9/xEU8HngPtHZX9c8H1vcul80zgB+Aiv9VyooiE9AJV04CziOyIcfUI7YDc5JDfueSopq61s856oclHuZB8XTUMi+43jAY+OtY1MulSaVGQo+EaJ5s+6vdOLO0DFAd2QbMtrO7geq0nRBwC+CaNXXpqjZjJRTyqY6VTPIyPbSHIqnlaMTa0Ix1xRsEZgIvM6LXAKE+P8T01P0GWZ8uOFrK6PPTyua0NQqNPkoaNX6ViXq9Rp9kNhNrox3F70LOZg17jdyTpntWNorCPKLZTAPimnKHvTSIOtkie5XUAkOi8VbDoN7drCspeaDXVDkAaOsN9E8tIVU2uSSL6lxGylGqGPB/8rmTHz+BAgkAAAAASUVORK5CYII="
+            />
+            <h4>Explore</h4>
+          </div>
+          <div class="reels">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAVZJREFUSEvN1rEuBFEUxvHfhkopEiQSGrVCoaVQiE7JK1ASHTqJEq/hBTTUGr2GhELjCRT2bHaSyezszszuXbun2WRz5/zvd8537r0tE4rWhLjqgOdxgJURNvmJB/xkOarAS3jF4gjQ7NNvbCB+KxUf4zYBNEsR+e7rgC9xkRB81c4VOSsVTx34CzMIDzSJ2oqjzJ3SFOIJ+zjDKeZq0pOAd7qwGLNrHNZoXSk4389szPr1+BnbBZVbXcduDlA/FnBm1lAeFSg7cMYGzsQutD3wgrWC+rGCj/5bcfQ2TqXodb9IqngZN6ldPWiO93CeYo6bjFNccxFNr8qRS13zoOpZNv3g1PfxCe6K12JZj+MAeMPssLXNffeLdbzXAceaVewOYaT8XsOMj/jI/sy/ucoUJxBanmIqwKmMVPVy7ZQgvyiVkRqDUxmp7KnU0+hauxuHwyYG/gPtGFQfCq3nNAAAAABJRU5ErkJggg=="
+            />
+            <h4>Reels</h4>
+          </div>
+          <div class="message">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAdJJREFUSEvF1j/oTmEUwPHPj5ISZUDKb6OUDFiUgRgs6sciZWGhKCNKFrEYMBiQwc9iUCJJShkwICULBpOSkqL8TeKeeq5eT/e97vu+9/Y+273POef7nHOec54zYUxrYkxcg4LnYA0msTgd+i3e4Cm+NnWkCXgu9mEnVtYY/o3nuFQc6jy+1R2iDhx7B3AM85p6kuQ+4DAu9tPrB56Pa9gwIDAXv4kdVSmoAgf0PlaMCC3VH2BzDs/BMxGCa1uClmZuYGuvzRwc+TzaMrQ0txcXyo9e8Ay8w4KOwM+wqgq8CXc7gpZml+J1fPR6HKE41zF4e3Fpr+bgIzjeMfgQTo7D492ps/0T6nWplLp0Osr0Ue7xrNTsF3ZEfoXlVbc6/u3H2Y7AuzDdDxyd60lvvbV0iHvYWNe5Ym9R6tXLWoK+wPoimu//B479yPNtrB4R/hhbcmh+uXLG7OIdPoU9iBQMsr6kej1R9P5fVYpNJpApXG9A/YE7uJLkv9fpNAHHMBCXI1/hyenioX+ZyvAhwtNGa1hwDHfb0oDXCJQLDQO+lQa/T0MRk9Ig4J/F+HIQZ0YB9msgVTYjx5dHDe0woV6Cz/jYhqeDeNwm76+tJjnuBPwHuaxKH/SpMNYAAAAASUVORK5CYII="
+            />
+            <h4>Message</h4>
+          </div>
+          <div class="notification">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZhJREFUSEvl1j9IF2EYwPHPL/+MLo4uhkOLrS5uRpBUCA612BK46eKkuAqKSxC41VRTIbg4SAXhIuGiOLkoTm4uTqZpvnAnP17O+91dv0Oh2973Hp7v8/99Gu7oa9wR170Gd+AROrGHq1ui9ACDuMA+/uRFM8/j0WvYAh6jK1Fyhl+YxVZyN4wlDKE7uTvHLubwPcuALHCABEUzLfL/LjFoqoXcMuaTSNyIZoFXMd7movuC1806Y/AEPrUZmqp7ha/poRkciugIfTWBD66dGsgCj+BHTdBUbSjA7XBo9nga72sGv8HnGBxaZLFm8CQ+xOC3+Fgz+AXWY3A/DmsEh6HSi9MYHM5rGKsJvoKbYRP38UPsoKfN8ONkjp9ktVN6F9pqI3kU2sEPj8YTbOZNrvTf06QI0sehqgEhr8/xLVaQ9zr9K/xWaFZxxYZVhedCi4CDTFl4S2hRcBl4WBReZuW0TI7Lhr0wtIzHrao9QJ/hZ9Hyr7JlxjkvDa3icez5ZVlP8yZX0WiFLfR31eWhSqiLGpYr9/+B/wL/F0cfaeSTzgAAAABJRU5ErkJggg=="
+            />
+            <h4>Notification</h4>
+          </div>
+          <div class="creat">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAP9JREFUSEvtl8kNwjAQRV8q4MCZpQAOVMBSBZRBAYgLDVAGVMFSAQcKAClXDlQAGimWhsghzuogZW5W7Hme729lHOApAk9cGgfuAiMovLE3cAOecWVtFW+BdclHIDk3Omcc3AceJUNNuh4QmkEcPAHOFYGnwCUJPAOOFYHnwKko+AVcoyRjoOOw2VLAchyijoRUITKmRQv+UsjVXLVIrY1kdinGWkWDHSAG02EzXOYz1tWlGch8txnuf8DepLbJW4u5WrAo4E1qbz8J1/us5/28x94agQFwz1OOw5qhbqtszd4eWDgkyjLlACz1gqS+2kt7m6WS3HMb95LIXYnrwg/oJ1IfZh8olwAAAABJRU5ErkJggg=="
+            />
+            <h4>Create</h4>
+          </div>
+          <div class="profile">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII="
+            />
+            <h4>Profile</h4>
+          </div>
+        </div>
+
+        <div class="more">
+          <div>
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg=="
+            />
+          </div>
+          <div>More</div>
+        </div>
       </div>
-  
-  
-      
+
       <div class="center">
-
         <div class="story">
-        
-
-
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>poRkciug</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>lkndsklv</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>djfdushf</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>klkdsnjdsh</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>dnklvvvd</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>ffmdlfmds</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>dvdknk</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>kjfbdjkf</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>fdsjfh</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>jgfdusgf</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>jgfdusgf</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>jgfdusgf</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>jgfdusgf</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>jgfdusgf</p></div>
           </div>
           <div class="s">
             <div>
-              <img src="it.png" alt="" class="dekh" >
+              <img src="it.png" alt="" class="dekh" />
             </div>
             <div><p>jgfdusgf</p></div>
           </div>
-  
-  
+
           <div class="content">
-  
             <div class="reel">
               <div></div>
               <div></div>
             </div>
-  
+
             <div class="post">
               <div></div>
               <div></div>
             </div>
-  
           </div>
-  
-  
-  
-  
         </div>
-
       </div>
-
-
 
       <div class="account">
         <div class="p">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII="/>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArlJREFUSEvFlluIjlEUhp9xiqSEyaFEzuVKIqKUXKLkgiuhFCkhhJqUUyQhUhQlFwp3uOKC5JCQU+RULhAhLhwS4nuntf/2v9vf3t/8M5pVU9P/7bXedXzXaqKTpKmTcGkrcBdgMjACGGJOvwVeAreAv1UDqQo8DNgMzAf6lxj/AJwFdgKvcw7kgHsALcCGwqD+ryI/gR3mwJ8yhRTwYOBc8TexClrkzRXL0KeYfhnwcOAGMKhBUKem2k8BPoZ2YsB9gdvAyHaCOvW7wHTgh28vBnwcWJIB/Q08tTfjgK6Z97uBjSngscATSI7ZGWAF4Go3oBito8C8BPh3QOVT57dKGLEMLEsYUNo0x2G3quPvA4q+TLYWc74lBqx0fQb6JJRXAodLvq8tdPcmdFWammN+xDOAy5lazQYulLzRN41fSsYAz8NULwJOZBTXAPsbjFhqc51zfsTrgD0Z4EfABEBd7Us34DEwOqO/GjgQRpyrkbN5Glhu/aDfmoEjma52usLYFwIvBE5lPHafFbHGrrtFmZtjp7cAkON14yRqE03+T5lkrFgHrF37zlIXA9euFfGrqxXtN3vUGxgPzDFqLHP8DTDU7eyQQDSjYqVQ7gGLjSRSGVFEJ4uSiQFDUW1V41YJgUdZNOpSJ+8touh6iwDoMnkI9PO+/bKrpXYgxJbEMWCpp/QFmFWk8k7F4mt/XyrmXVvOyUFgla8fA5anN4OZ/ApsBw55tQ39ENXK+KaCD1R3Jw+AaYBs1KTsENAxdx0YGFjXlrkIXAOe2TrU3hbdzgR6Be9f2SGgctVJ6vRRrc4bU1XMct2zq0YqbTp9nIWetsrWV1j2TkfH3jZgV2R9ZlMdRigOVu207P2m8d8pnToSdG20+7wNHRA1TgV0Z+sKFanooH9hjNThB30jNU7q5A76Dgd0Bv8BIyR2H9l/W1MAAAAASUVORK5CYII="
+          />
         </div>
         <div class="">
           <p>Pradhumnya_patil</p>
           <p>Pradhumnya Gawande</p>
         </div>
       </div>
-
-
-
-
-
-
     </div>
-   
-
   </body>
 </html>

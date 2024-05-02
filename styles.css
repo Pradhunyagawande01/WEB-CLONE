@@ -19,52 +19,52 @@ body {
   border: 1px solid black;
   width: 280px;
   background-color: wheat;
-  height:100%;
+  height: 100%;
 }
 
-.nav{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    padding:20px;
+.nav {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-
-.home , .explore , .notification , .message , .search , .profile , .reels , .creat{
-    display: flex;
-    margin: 10px;
-    align-items:center;
-    gap: 10px;
-    height: 30px;
-    width: 150px;
+.home,
+.explore,
+.notification,
+.message,
+.search,
+.profile,
+.reels,
+.creat {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+  width: 150px;
 }
 
-
-.logo{
-    height: 40px;
-    width: 100px;
+.logo {
+  height: 40px;
+  width: 100px;
 }
 
-
-.name{
-    height: 40px;
+.name {
+  height: 40px;
 }
 
-.more{
-    height: 190px;
+.more {
+  height: 190px;
 }
 
-
-
-.name , .more{
-    display: flex;
-    align-items: center;
-    padding:30px;
+.name,
+.more {
+  display: flex;
+  align-items: center;
+  padding: 30px;
 }
-
-
-
 
 .center {
   display: flex;
@@ -86,7 +86,7 @@ body {
 }
 
 .dekh {
-    border: 3px solid rgb(200, 71, 187);
+  border: 3px solid rgb(200, 71, 187);
   width: 70px;
   height: 70px;
   border-radius: 50%;
